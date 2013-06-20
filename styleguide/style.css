@@ -1,0 +1,206 @@
+/* 
+Yahoo Reset 
+YUI 3.10.3 (build 2fb5187)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+/* Style Guide for CivicAppls 2.0 */
+
+/* Typography */
+body{
+	font-family: 'Arial', sans-serif;
+	padding: 1em 2em;
+}
+strong{font-weight: bold;}
+h1, h2, h3, h4{
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+h1{
+	font-size: 3.0em;
+	font-weight: bold;
+}
+h2{
+	font-size: 2em;
+	font-weight: bold;
+}
+h3{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h4{
+	font-weight: 1.2em;
+	border-bottom: 1px solid #eaeaea;
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+	padding-bottom: 0.2em;
+}
+p{
+	font-size: 1em;
+	margin: 1.2em 0;
+	line-height: 1.25em;
+}
+
+a{
+	color: #0086ad;
+}
+
+/* Colors */
+.square{width:60px; height: 60px; text-align: center; padding: 6px; font-size: 12px; font-weight: bold; color: #FFF;}
+.aqua{background-color: #25bab8}
+.orange{background-color: #f7931e}
+.green{background-color: #489e4f}
+.red{background-color: #ca2929}
+
+.shadow-light{
+  -moz-box-shadow:    0px 0px 8px 2px #c9c9c9;
+  -webkit-box-shadow: 0px 0px 8px 2px #c9c9c9;
+  box-shadow:         0px 0px 8px 2px #c9c9c9;
+}
+
+.shadow-dark{
+  -moz-box-shadow:    0px 0px 8px 0px #888;
+  -webkit-box-shadow: 0px 0px 8px 0px #888;
+  box-shadow:         0px 0px 8px 0px #888;
+}
+
+/* Navigation */
+div#primary-nav{
+	font-family: 'Open Sans';
+	font-weight: 700;
+	/* text-transform: uppercase; */
+	color: #8F8F8F;
+	border-bottom: 1px solid #333;
+	margin: 24px 0px;
+	text-align: right;
+	width: 960px;
+}
+
+div#primary-nav ul{
+}
+
+div#primary-nav ul li{
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 0.0em;
+	padding: 0em 12px 6px 16px;
+	border-left: 1px solid #333;
+}
+
+div#primary-nav ul li.first{border-left: none; font-weight: 400}
+
+div#primary-nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+div.list-nav{
+	width: 225px;
+}
+div.list-nav h3{
+	font-size: 1.4em;
+	border-bottom: 3px solid #515151;
+	padding-bottom: 2px;
+}
+div.list-nav ul{
+	
+}
+div.list-nav ul li{
+	padding: 10px;
+	border-top:1px solid #d6d6d6;
+}
+div.list-nav ul li a{
+	text-decoration: none;
+	font-size: 0.93em;
+}
+div.list-nav ul li a:hover{
+	text-decoration: underline;
+}
+
+div.list-nav ul li.first{border-top: none;}
+
+/* Structure */
+section{margin-bottom: 1.6em;}
+#colors ul li{display:inline-block; margin: 1.6em; vertical-align: top}
+
+#lists ul.text{
+	list-style: disc;
+	margin: 1em 0em 1em 1.5em;
+}
+#lists ol.text{
+	list-style: decimal;
+	margin: 1em 0em 1em 1.7em;
+}
+#lists ul.text li,
+#lists ol.text li{line-height: 1.6em;}
+
+/* Input Fields and Form Items */
+form input[type=text].search{
+	height: 30px; 
+	width: 300px; /* just for demo purposes */
+	padding: 5px;
+	font-size: 0.9em;
+	color: #333;
+	border: 1px solid #c7c7c7;
+	background-color: #f7f7f7;
+	-webkit-box-shadow: 
+      inset 0 0 12px  rgba(0,0,0,0.15);
+    -moz-box-shadow: 
+      inset 0 0 12px  rgba(0,0,0,0.15);
+    box-shadow: 
+      inset 0 0 12px  rgba(0,0,0,0.15);
+}
+
+/* Featured Blocks */
+div#featured div.wrap{
+	height: 170px;
+	width: 195px;
+	margin-right: 48px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'PT Sans';
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+}
+div#featured div.wrap div.block,
+div#featured div.wrap span.title-block{
+	height: 170px;
+	width: 195px;
+}
+
+div#featured div.last{margin:0;}
+div#featured div span.category{
+	margin-top: 6px;
+	font-size: 12px;
+	position: relative;
+	text-transform: uppercase;
+	top: 5px;
+}
+div#featured div.wrap span.title-block{
+	font-size: 30px;
+	position: absolute;
+	display: table;
+	margin-top: -15px;
+}
+div#featured div.wrap span.title-block p{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 8px;
+}
+div#featured div.wrap div.badge{
+	display: block;
+	height: 55px;
+	width: 55px;
+	background-color: #FFF;
+	position: relative;
+	border: 1px solid #dedede;
+	margin-top: -50px;
+	margin-left: -10px;
+}
+
+
+
+
